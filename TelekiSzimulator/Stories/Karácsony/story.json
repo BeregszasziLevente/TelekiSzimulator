@@ -1,0 +1,42 @@
+{
+  "title": "Karácsony",
+  "start": "1",
+  "scenes": [
+    {
+      "id": "1",
+      "title": "Karácson reggel",
+      "level": 0,
+      "ending": false,
+      "text": "Izgatottan felkelek karácsony reggelén",
+      "media": "1.jpg",
+      "choices": [
+        {
+          "label": "Jó votam idén",
+          "next": "3"
+        },
+        {
+          "label": "Rossz voltam idén",
+          "next": "2"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Jó voltam",
+      "level": 0,
+      "ending": true,
+      "text": "Idén is jól viselkedtem ezért megleptek engem a szüleim",
+      "media": "3.jpg",
+      "choices": []
+    },
+    {
+      "id": "2",
+      "title": "Rossz voltam",
+      "level": 0,
+      "ending": true,
+      "text": "Mivel nem voltam jó gyerek ezért nem kaptam ajándékot",
+      "media": "2.jpg",
+      "choices": []
+    }
+  ]
+}
